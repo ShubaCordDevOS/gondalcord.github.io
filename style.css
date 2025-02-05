@@ -1,1 +1,7 @@
-
+body {
+    margin: 0;
+    color: white;
+    text-align: center;
+    font-family: space-age;
+  background-image: url("https://media.giphy.com/media/WQNiSTYU9IlaErv55B/giphy-downsized-large.gif");
+}
