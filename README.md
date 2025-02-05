@@ -1,6 +1,3 @@
-# Animated Coming Soon Text 
+# GONDALCORD Website is coming soon!
 
-A Pen created on CodePen.
-
-Original URL: [https://codepen.io/cmlohr/pen/poNvdLx](https://codepen.io/cmlohr/pen/poNvdLx).
 
