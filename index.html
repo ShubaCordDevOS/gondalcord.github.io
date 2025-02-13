@@ -57,9 +57,6 @@
 </nav>
 
 <main>
-    <h2>Home</h2>
-    <p>This is a simple HTML and JavaScript website example.</p>
-    <h2>Discord</h2>
     <p><iframe src="https://discord.com/widget?id=1013289955121975426&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe></p>
 </main>
 
@@ -69,22 +66,7 @@
 
 <script>
     // JavaScript code can be added here
-    document.addEventListener('DOMContentLoaded', function() {
-        const links = document.querySelectorAll('nav a');
-        links.forEach(link => {
-            link.addEventListener('click', function(event) {
-                event.preventDefault();
-                const targetId = this.getAttribute('href').substring(1);
-                const targetElement = document.getElementById(targetId);
-                if (targetElement) {
-                    window.scrollTo({
-                        top: targetElement.offsetTop,
-                        behavior: 'smooth'
-                    });
-                }
-            });
-        });
-    });
+    
 </script>
 
 </body>
